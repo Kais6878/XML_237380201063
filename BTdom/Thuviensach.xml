@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+
+    <danhMuc maDanhMuc="DM01" tenDanhMuc="Khoa học viễn tưởng">
+        <sach>
+            <ISBN>SF001</ISBN>
+            <tuaDe>Dune - Hành tinh cát</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Frank Herbert</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1965</namXuatBan>
+            <nhaXuatBan>Chilton Company</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>A</khuVuc>
+                <ke>1</ke>
+                <tang>1</tang>
+            </viTriKeSach>
+        </sach>
+
+        <sach>
+            <ISBN>SF002</ISBN>
+            <tuaDe>Nền móng</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Isaac Asimov</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1951</namXuatBan>
+            <nhaXuatBan>Gnome Press</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>A</khuVuc>
+                <ke>2</ke>
+                <tang>1</tang>
+            </viTriKeSach>
+        </sach>
+
+        <sach>
+            <ISBN>SF003</ISBN>
+            <tuaDe>2001: Chuyến du hành không gian</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Arthur C. Clarke</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1968</namXuatBan>
+            <nhaXuatBan>Hutchinson</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>A</khuVuc>
+                <ke>3</ke>
+                <tang>1</tang>
+            </viTriKeSach>
+        </sach>
+
+    
+    </danhMuc>
+
+
+    <danhMuc maDanhMuc="DM02" tenDanhMuc="Du hành vũ trụ">
+        <sach>
+            <ISBN>SF006</ISBN>
+            <tuaDe>Cuộc chiến giữa các vì sao</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>George Lucas</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1977</namXuatBan>
+            <nhaXuatBan>Del Rey Books</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>B</khuVuc>
+                <ke>1</ke>
+                <tang>2</tang>
+            </viTriKeSach>
+        </sach>
+
+        <sach>
+            <ISBN>SF007</ISBN>
+            <tuaDe>Hành tinh khỉ</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Pierre Boulle</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1963</namXuatBan>
+            <nhaXuatBan>Julliard</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>B</khuVuc>
+                <ke>2</ke>
+                <tang>2</tang>
+            </viTriKeSach>
+        </sach>
+
+        <sach>
+            <ISBN>SF008</ISBN>
+            <tuaDe>Cuộc chiến của các thế giới</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>H. G. Wells</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1898</namXuatBan>
+            <nhaXuatBan>William Heinemann</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>B</khuVuc>
+                <ke>3</ke>
+                <tang>2</tang>
+            </viTriKeSach>
+        </sach>
+
+   
+    </danhMuc>
+
+
+    <danhMuc maDanhMuc="DM03" tenDanhMuc="Robot và Trí tuệ nhân tạo">
+        <sach>
+            <ISBN>SF011</ISBN>
+            <tuaDe>Tôi, Robot</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Isaac Asimov</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1950</namXuatBan>
+            <nhaXuatBan>Gnome Press</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>C</khuVuc>
+                <ke>1</ke>
+                <tang>3</tang>
+            </viTriKeSach>
+        </sach>
+
+ 
+    </danhMuc>
+
+</library>

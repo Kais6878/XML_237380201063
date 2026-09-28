@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<danhsach>
+    <nhanvien>
+        <manv> 001 </manv>
+        <hoTen> Nguyễn Thế Anh </hoTen>
+        <donvi> Hành chính </donvi>
+        <luong> 5.000.000 </luong>
+    </nhanvien>
+    
+    <nhanvien>
+        <manv> 002 </manv>
+        <hoTen> Nguyễn Thị Bình </hoTen>
+        <donvi> Kỹ thuật </donvi>
+        <luong> 7.000.000 </luong>
+    </nhanvien>
+
+    <nhanvien>
+        <manv> 003 </manv>
+        <hoTen> Vương Thúy Phượng </hoTen>
+        <donvi> Tổ chức </donvi>
+        <luong> 8.000.000 </luong>
+    </nhanvien>
+</danhsach>
