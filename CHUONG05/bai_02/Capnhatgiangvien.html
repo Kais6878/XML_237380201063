@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Capnhatgiangvien</title>
+    <style>
+        table { border-collapse: collapse; width: 80%; margin: 20px auto; }
+        th, td { border: 1px solid black; padding: 8px; text-align: center; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">CẬP NHẬT ĐƠN VỊ GIẢNG VIÊN</h2>
+    <table id="gvTable">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Họ tên giảng viên</th>
+                <th>Ngành</th>
+                <th>Đơn vị</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        let xhr = new XMLHttpRequest();
+        xhr.open("GET", "hosogiangvien.xml", true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                let xmlDoc = xhr.responseXML;
+                let giangviens = xmlDoc.getElementsByTagName("giangvien");
+
+                // Tiến hành tìm và cập nhật đơn vị
+                for (let i = 0; i < giangviens.length; i++) {
+                    let hoten = giangviens[i].getElementsByTagName("hoten")[0].textContent.trim();
+                    if (hoten === "Phạm Thanh Loan") {
+                        giangviens[i].getElementsByTagName("donvi")[0].textContent = "Cơ bản";
+                    }
+                }
+
+                // Hiển thị lại bảng dữ liệu sau khi cập nhật
+                let tbody = document.querySelector("#gvTable tbody");
+                for (let i = 0; i < giangviens.length; i++) {
+                    let hoten = giangviens[i].getElementsByTagName("hoten")[0].textContent;
+                    let nganh = giangviens[i].getElementsByTagName("nganh")[0].textContent;
+                    let donvi = giangviens[i].getElementsByTagName("donvi")[0].textContent;
+
+                    let row = `<tr>
+                        <td>${i + 1}</td>
+                        <td>${hoten}</td>
+                        <td>${nganh}</td>
+                        <td>${donvi}</td>
+                    </tr>`;
+                    tbody.innerHTML += row;
+                }
+            }
+        };
+        xhr.send();
+    </script>
+</body>
+</html>
