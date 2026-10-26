@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect XML Document</title>
+</head>
+<body>
+    <div id="result"></div>
+    <script>
+        //Tạo đối tượng XMLHttpRequest
+        var xhr = new XMLHttpRequest();
+
+        //Mở tập tin hoso.xml
+        xhr.open("GET", "hoso.xml", false);
+        xhr.send();
+
+        //Xuất dữ liệu trong tập tin hoso.xml vào thẻ
+        //div trong trang HTML.
+        document.getElementById("result").innerHTML =
+            xhr.responseText;
+    </script>
+</body>
+</html>
