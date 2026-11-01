@@ -2,19 +2,31 @@
 <students>
   <student>
     <id>001</id>
+<<<<<<< HEAD
     <name>kim sang te</name>
+=======
+    <name>Gia le</name>
+>>>>>>> b118e2da3394f3b60003e25707ad6db9c3de9d61
     <date>12-05-2000</date>
     <city>Bac Lieu</city>
   </student>
   <student>
     <id>003</id>
+<<<<<<< HEAD
     <name>bankai jo</name>
+=======
+    <name>Hoang Nam</name>
+>>>>>>> b118e2da3394f3b60003e25707ad6db9c3de9d61
     <date>20-09-2005</date>
     <city>Ca Mau</city>
   </student>
   <student>
     <id>002</id>
+<<<<<<< HEAD
     <name>who time</name>
+=======
+    <name>Ngo huy</name>
+>>>>>>> b118e2da3394f3b60003e25707ad6db9c3de9d61
     <date>10-10-2005</date>
     <city>bạc liêu</city>
   </student>
